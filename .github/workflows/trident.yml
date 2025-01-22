@@ -1,0 +1,13 @@
+
+{
+"version": 1,
+"storageDriverName": "ontap-nas",
+"managementLIF": "192.168.xxx.xx",
+"dataLIF": "192.168.xx.xx",
+"svm": "svm-name",
+"username": "vsadmin",
+"password": "password"
+}
+
+##Command to apply using tridentctl 
+./tridentctl create backend -f trident.json -n namespace
