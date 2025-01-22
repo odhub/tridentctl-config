@@ -9,4 +9,3 @@
 "password": "password"
 }
 
-##Command to apply using tridentctl  ./tridentctl create backend -f trident.json -n namespace
