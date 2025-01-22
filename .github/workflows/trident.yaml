@@ -1,0 +1,9 @@
+---
+version: 1
+backendName: tridentBackend
+storageDriverName: ontap-nas
+managementLIF: 192.168.xx.xx
+dataLIF: 192.168.xxx.xx
+svm: svm_openshift
+username: vsadmin
+password: password
